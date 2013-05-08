@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F02E3A9162E49C0000CBC61 /* crayons.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0F02E3A8162E49C0000CBC61 /* crayons.txt */; };
+		0F1F3EB5162D3EBE00FD0ADE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1F3EB4162D3EBE00FD0ADE /* QuartzCore.framework */; };
 		0F6CCD10162D05BE0031E695 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6CCD0F162D05BE0031E695 /* UIKit.framework */; };
 		0F6CCD12162D05BE0031E695 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6CCD11162D05BE0031E695 /* Foundation.framework */; };
 		0F6CCD14162D05BE0031E695 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6CCD13162D05BE0031E695 /* CoreGraphics.framework */; };
@@ -16,9 +18,22 @@
 		0F6CCD22162D05BE0031E695 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CCD21162D05BE0031E695 /* Default.png */; };
 		0F6CCD24162D05BE0031E695 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CCD23162D05BE0031E695 /* Default@2x.png */; };
 		0F6CCD26162D05BE0031E695 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CCD25162D05BE0031E695 /* Default-568h@2x.png */; };
+		0F6CCD34162D08570031E695 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CCD33162D08570031E695 /* OneViewController.m */; };
+		0F6CCD37162D08650031E695 /* TowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CCD36162D08650031E695 /* TowViewController.m */; };
+		0F6CCD3D162D0C680031E695 /* icon_4_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CCD38162D0C680031E695 /* icon_4_n.png */; };
+		0F6CCD3E162D0C680031E695 /* icon_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CCD39162D0C680031E695 /* icon_home.png */; };
+		0F6CCD3F162D0C680031E695 /* icon_meassage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CCD3A162D0C680031E695 /* icon_meassage.png */; };
+		0F6CCD40162D0C680031E695 /* icon_more.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CCD3B162D0C680031E695 /* icon_more.png */; };
+		0F6CCD41162D0C680031E695 /* icon_selfinfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F6CCD3C162D0C680031E695 /* icon_selfinfo.png */; };
+		0F6CCD44162D0DF80031E695 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CCD43162D0DF80031E695 /* ThreeViewController.m */; };
+		0F6CCD47162D0E310031E695 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CCD46162D0E300031E695 /* FourViewController.m */; };
+		0F6CCD4A162D0E640031E695 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CCD49162D0E640031E695 /* FiveViewController.m */; };
+		0F6CCD4D162D0E880031E695 /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CCD4C162D0E880031E695 /* SixViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F02E3A8162E49C0000CBC61 /* crayons.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crayons.txt; sourceTree = "<group>"; };
+		0F1F3EB4162D3EBE00FD0ADE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0F6CCD0B162D05BE0031E695 /* UITabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6CCD0F162D05BE0031E695 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0F6CCD11162D05BE0031E695 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +47,23 @@
 		0F6CCD21162D05BE0031E695 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0F6CCD23162D05BE0031E695 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0F6CCD25162D05BE0031E695 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0F6CCD32162D08570031E695 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		0F6CCD33162D08570031E695 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		0F6CCD35162D08650031E695 /* TowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowViewController.h; sourceTree = "<group>"; };
+		0F6CCD36162D08650031E695 /* TowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TowViewController.m; sourceTree = "<group>"; };
+		0F6CCD38162D0C680031E695 /* icon_4_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_4_n.png; sourceTree = "<group>"; };
+		0F6CCD39162D0C680031E695 /* icon_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_home.png; sourceTree = "<group>"; };
+		0F6CCD3A162D0C680031E695 /* icon_meassage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_meassage.png; sourceTree = "<group>"; };
+		0F6CCD3B162D0C680031E695 /* icon_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_more.png; sourceTree = "<group>"; };
+		0F6CCD3C162D0C680031E695 /* icon_selfinfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_selfinfo.png; sourceTree = "<group>"; };
+		0F6CCD42162D0DF80031E695 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		0F6CCD43162D0DF80031E695 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		0F6CCD45162D0E300031E695 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		0F6CCD46162D0E300031E695 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		0F6CCD48162D0E640031E695 /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		0F6CCD49162D0E640031E695 /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		0F6CCD4B162D0E880031E695 /* SixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		0F6CCD4C162D0E880031E695 /* SixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F1F3EB5162D3EBE00FD0ADE /* QuartzCore.framework in Frameworks */,
 				0F6CCD10162D05BE0031E695 /* UIKit.framework in Frameworks */,
 				0F6CCD12162D05BE0031E695 /* Foundation.framework in Frameworks */,
 				0F6CCD14162D05BE0031E695 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +84,7 @@
 		0F6CCD00162D05BD0031E695 = {
 			isa = PBXGroup;
 			children = (
+				0F1F3EB4162D3EBE00FD0ADE /* QuartzCore.framework */,
 				0F6CCD15162D05BE0031E695 /* UITabBar */,
 				0F6CCD0E162D05BE0031E695 /* Frameworks */,
 				0F6CCD0C162D05BE0031E695 /* Products */,
@@ -78,9 +112,27 @@
 		0F6CCD15162D05BE0031E695 /* UITabBar */ = {
 			isa = PBXGroup;
 			children = (
+				0F02E3A8162E49C0000CBC61 /* crayons.txt */,
+				0F6CCD38162D0C680031E695 /* icon_4_n.png */,
+				0F6CCD39162D0C680031E695 /* icon_home.png */,
+				0F6CCD3A162D0C680031E695 /* icon_meassage.png */,
+				0F6CCD3B162D0C680031E695 /* icon_more.png */,
+				0F6CCD3C162D0C680031E695 /* icon_selfinfo.png */,
 				0F6CCD1E162D05BE0031E695 /* AppDelegate.h */,
 				0F6CCD1F162D05BE0031E695 /* AppDelegate.m */,
 				0F6CCD16162D05BE0031E695 /* Supporting Files */,
+				0F6CCD32162D08570031E695 /* OneViewController.h */,
+				0F6CCD33162D08570031E695 /* OneViewController.m */,
+				0F6CCD35162D08650031E695 /* TowViewController.h */,
+				0F6CCD36162D08650031E695 /* TowViewController.m */,
+				0F6CCD42162D0DF80031E695 /* ThreeViewController.h */,
+				0F6CCD43162D0DF80031E695 /* ThreeViewController.m */,
+				0F6CCD45162D0E300031E695 /* FourViewController.h */,
+				0F6CCD46162D0E300031E695 /* FourViewController.m */,
+				0F6CCD48162D0E640031E695 /* FiveViewController.h */,
+				0F6CCD49162D0E640031E695 /* FiveViewController.m */,
+				0F6CCD4B162D0E880031E695 /* SixViewController.h */,
+				0F6CCD4C162D0E880031E695 /* SixViewController.m */,
 			);
 			path = UITabBar;
 			sourceTree = "<group>";
@@ -154,6 +206,12 @@
 				0F6CCD22162D05BE0031E695 /* Default.png in Resources */,
 				0F6CCD24162D05BE0031E695 /* Default@2x.png in Resources */,
 				0F6CCD26162D05BE0031E695 /* Default-568h@2x.png in Resources */,
+				0F6CCD3D162D0C680031E695 /* icon_4_n.png in Resources */,
+				0F6CCD3E162D0C680031E695 /* icon_home.png in Resources */,
+				0F6CCD3F162D0C680031E695 /* icon_meassage.png in Resources */,
+				0F6CCD40162D0C680031E695 /* icon_more.png in Resources */,
+				0F6CCD41162D0C680031E695 /* icon_selfinfo.png in Resources */,
+				0F02E3A9162E49C0000CBC61 /* crayons.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +224,12 @@
 			files = (
 				0F6CCD1C162D05BE0031E695 /* main.m in Sources */,
 				0F6CCD20162D05BE0031E695 /* AppDelegate.m in Sources */,
+				0F6CCD34162D08570031E695 /* OneViewController.m in Sources */,
+				0F6CCD37162D08650031E695 /* TowViewController.m in Sources */,
+				0F6CCD44162D0DF80031E695 /* ThreeViewController.m in Sources */,
+				0F6CCD47162D0E310031E695 /* FourViewController.m in Sources */,
+				0F6CCD4A162D0E640031E695 /* FiveViewController.m in Sources */,
+				0F6CCD4D162D0E880031E695 /* SixViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +268,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -225,7 +289,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -239,6 +303,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UITabBar/UITabBar-Prefix.pch";
 				INFOPLIST_FILE = "UITabBar/UITabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -250,6 +315,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UITabBar/UITabBar-Prefix.pch";
 				INFOPLIST_FILE = "UITabBar/UITabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +340,7 @@
 				0F6CCD2B162D05BE0031E695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "OneViewController.h"
+#import "TowViewController.h"
+#import "ThreeViewController.h"
+#import "FiveViewController.h"
+#import "FourViewController.h"
+#import "SixViewController.h"
+
 
 @implementation AppDelegate
 
@@ -20,9 +27,60 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    OneViewController *oneControl = [[OneViewController alloc] init];
+    TowViewController *twoControl = [[TowViewController alloc] init];
+    ThreeViewController *threeControl = [[ThreeViewController alloc] init];
+    FourViewController *fourControl = [[FourViewController alloc] init];
+    FiveViewController *fiveControl = [[FiveViewController alloc] init];
+    SixViewController *sixControl = [[SixViewController alloc] init];
+    
+    oneControl.tabBarItem.title = @"one";
+    oneControl.tabBarItem.image = [UIImage imageNamed:@"icon_home.png"];
+    
+    threeControl.tabBarItem.title = @"three";
+    threeControl.tabBarItem.image = [UIImage imageNamed:@"icon_home.png"];
+    
+    fourControl.tabBarItem.title = @"four";
+    fourControl.tabBarItem.image = [UIImage imageNamed:@"icon_home.png"];
+    
+    fiveControl.tabBarItem.title = @"five";
+    fiveControl.tabBarItem.image = [UIImage imageNamed:@"icon_home.png"];
+    //UISearchDisplayController
+    
+    sixControl.tabBarItem.title = @"six";
+    sixControl.tabBarItem.image = [UIImage imageNamed:@"icon_home.png"];
+    
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:twoControl];//将第二个控制器放入导航控制器
+    nav.tabBarItem.title = @"two";//设置的控制器是放入是数组中的
+    nav.tabBarItem.image = [UIImage imageNamed:@"icon_meassage.png"];
+    
+    
+    
+    //twoControl.tabBarItem.title = @"two";
+    NSArray *ary = [[NSArray alloc] initWithObjects:oneControl,nav,threeControl,fourControl,fiveControl,sixControl, nil];//tab提供的viewControl的容器
+    UITabBarController *tavBarController = [[UITabBarController alloc] init];
+    tavBarController.delegate = self;
+    tavBarController.viewControllers = ary;//设置位显示容器
+    self.window.rootViewController = tavBarController;
+    [tavBarController release];
+    [ary release];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+//点击对应选项卡时进入
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+    if (tabBarController.selectedIndex == 0) {//判断点选的索引标记
+        int num = 0;
+      num = [viewController.tabBarItem.badgeValue intValue] ;
+        num++;
+        viewController.tabBarItem.badgeValue = [NSString stringWithFormat:@"%d",num];//设置标志值
+    }
+}
+//点击编辑后，点击done的代理方法
+- (void)tabBarController:(UITabBarController *)tabBarController didEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed{
+    tabBarController.viewControllers = [NSArray arrayWithObjects:[tabBarController.viewControllers objectAtIndex:0],[tabBarController.viewControllers objectAtIndex:2],[tabBarController.viewControllers objectAtIndex:1],[tabBarController.viewControllers objectAtIndex:5],[tabBarController.viewControllers objectAtIndex:4], nil];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
