@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-//haha
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate,UITabBarControllerDelegate>
 
